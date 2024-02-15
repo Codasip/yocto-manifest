@@ -10,5 +10,6 @@
 nanbield
   <project name="meta-clang" remote="kraj" path="meta-clang" revision="e18cec09b30a3946a1b1c590d4bf1fe5080d7087" />
   <project name="meta-codasip" remote="codasip" path="meta-codasip" revision="hobgoblin" />
+  <project name="meta-codasip-baremetal" remote="codasip" path="meta-codasip-baremetal" revision="hobgoblin" />
 
 </manifest>
