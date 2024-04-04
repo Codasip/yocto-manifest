@@ -2,7 +2,7 @@
 <manifest>
   <remote name="yocto" fetch="git://git.yoctoproject.org/" />
   <remote name="kraj" fetch="https://github.com/kraj/" />
-  <remote name="codasip" fetch="git@gitlab.codasip.com:cheri/software/cherilinux/" />
+  <remote name="codasip" fetch="https://github.com/Codasip/" />
 
   <default remote="yocto" revision="master" />
 
