@@ -195,7 +195,21 @@ directory and sets up some environment variables for the build system.  This con
 directory is not under revision control; you may wish to edit these configuration
 files for your specific setup.
 
-## 5.  Build an image
+## 5.  Accept the licence
+
+All the software used in this Yocto build is covered by open source licences,
+with one exception. The FSBL used to boot the platform is covered by a
+Codasip commercial license. This license is provided as part of the
+`meta-codasip` layer, and can be inspected
+[here](https://github.com/Codasip/meta-codasip/blob/hobgoblin/licenses/Codasip).
+
+To build the image it necessary to accept this licence by adding a line
+to the file `conf/local.conf`:
+```
+% echo 'LICENSE_FLAGS_ACCEPTED += "commercial"' >> conf/local.conf
+```
+
+## 6.  Build an image
 
 This process downloads over 10 gigabytes of source code and then
 proceeds to do an awful lot of compilation so make sure you have
